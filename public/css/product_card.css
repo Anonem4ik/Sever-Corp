@@ -1,0 +1,58 @@
+/* Products card */
+
+.product-card {
+    width: fit-content;
+    padding: 15px 3.5rem 20px;
+    background-color: #262626;
+    border: 0.1px solid rgba(223, 168, 65, 0.4);
+    box-shadow: 0.5px 0.5px 4px white;
+    text-align: center;
+}
+
+.product-card img {
+    width: 19rem;
+    aspect-ratio: 1 / 1;
+}
+
+.product-card h3 {
+    margin: 10px auto 15px;
+    width: 19rem;
+    height: 2lh;
+    overflow: hidden;
+    font-family: 'Ubuntu-sans', Arial, sans-serif;
+    font-weight: normal;
+}
+
+.product-card .cost {
+    margin-bottom: 14px;
+    font-family: 'Victor Mono', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.product-card :is(.to-cart, .delete-from, .in-basket) {
+    display: block;
+    margin: auto;
+    width: 15rem;
+    height: 30px;
+    font-family: 'Victor Mono', Arial, sans-serif;
+}
+
+.product-card .in-basket {
+    border: 2px white solid;
+    border-radius: 5px;
+}
+
+.product-card :is(.to-favorite, .in-favorite) img {
+    margin-left: 0.5rem;
+    width: 30px;
+    height: 30px;
+}
+
+.product-card .to-favorite img:hover{
+    content: url("/images/general/full_star.svg");
+}
+
+.product-card .to-cart:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}

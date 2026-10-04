@@ -1,0 +1,49 @@
+/* || Footer */
+
+footer {
+    padding: 50px 0 10px;
+    margin-top: 40px;
+    background-color: #171717;
+}
+
+footer .links__container {
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+footer .links__section {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 32rem;
+}
+
+footer .links__section h2 {
+    width: 100%;
+    text-align: center;
+}
+
+footer .links__section hr {
+    width: 100%;
+    margin: 8px 0 10px;
+}
+
+footer .links__section a {
+    font-family: 'Ubuntu-sans', Arial, sans-serif;
+}
+
+footer .trademark {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* || Media query */
+
+@media (max-width: 1000px) {
+    footer .links__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}

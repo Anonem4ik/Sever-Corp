@@ -1,0 +1,218 @@
+/* || Fonts */
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Ubuntu-light';
+    src: url("fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Ubuntu-sans';
+    src: url("fonts/UbuntuSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url("fonts/VictorMono-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url("fonts/Ysabeau-VariableFont_wght.ttf");
+}
+
+/* || Global rules */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu-light', Arial, sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 7px;
+    }
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content 1fr max-content;
+    min-height: 100vh;
+    background: linear-gradient(#171717, #03001C, #0E1432) fixed;
+    color: white;
+}
+
+button, input, a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+p, h1, h2, h3, hr {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+section {
+    margin-top: 40px;
+}
+
+/* || General styles */
+
+.page-header {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.default-container {
+    vertical-align: middle;
+    background: #171717;
+    border: 2px solid white;
+}
+
+.purple-box {
+    border: 2px solid white;
+    border-radius: 8px;
+    background: radial-gradient(circle, #AF60EB 55%, #633785 100%);
+}
+
+.gold-box {
+    border: 2px solid white;
+    border-radius: 10px;
+    background: radial-gradient(#DFA841, #795B23);
+}
+
+.blue-link {
+    color: #00D0FF;
+    text-decoration: underline;
+}
+
+/* || Main font sizes */
+
+.f-16 { font-size: 1.6rem; }
+.f-18 { font-size: 1.8rem; }
+.f-20 { font-size: 2.0rem; }
+.f-24 { font-size: 2.4rem; }
+.f-30 { font-size: 3.0rem; }
+
+/* || Flex displays */
+
+[flex-display] {
+    display: flex;
+}
+
+[flex-display="sided"] {
+    justify-content: space-between;
+}
+
+[flex-display="centered-list"] {
+    align-items: center;
+    justify-content: center;
+}
+
+[flex-display="centered-column"] {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* || Grids displays */
+
+[grid-display] {
+    display: grid;
+}
+
+[grid-display="3col-widget-grid"] {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* || Objects */
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.less-interval {
+    margin-top: 15px;
+}
+
+.wide {
+    width: 100%;
+}
+
+.inl-block {
+    display: inline-block;
+}
+
+.double-sided { /* TO DELETE */
+    display: flex;
+    justify-content: space-between;
+}
+
+.list { /* TO DELETE */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-li { /* TO DELETE */
+    display: inline-block;
+}
+
+.with-image {
+    display: inline grid;
+    grid-template-columns: min-content max-content;
+    align-items: center;
+    justify-items: center;
+}
+
+a.with-image:hover img {
+    filter: drop-shadow(0 0 5px white);
+}
+
+.clear-button {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.error-modal {
+    margin-top: 20px;
+    border: 5px #520000 solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #A73939;
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    transition: opacity 3s 10s linear;
+}
+
+.hidden {
+    display: none;
+}

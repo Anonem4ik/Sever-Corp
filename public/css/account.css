@@ -1,0 +1,76 @@
+/* || Account data block */
+
+#account_data .acc-data__container {
+    margin: 0 4rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+#account_data .acc-data__avatar {
+    height: 160px;
+    aspect-ratio: 1 / 1;
+    margin-right: 20px;
+    border-radius: calc(160px / 2);
+}
+
+#account_data .acc-data__logout {
+    color: darkred;
+    text-decoration: underline;
+}
+
+#account_data .acc-data__orders-count {
+    color: #B5B5B5;
+}
+
+/* || Orders */
+
+#orders_list .orders__container {
+    margin: 0 4rem;
+    gap: 40px;
+}
+
+#orders_list .orders__entry {
+    width: 100%;
+    padding: 2rem 2rem 1.3rem 2rem;
+}
+
+#orders_list .orders__entry > * {
+    margin-bottom: 0.7rem;
+}
+
+#orders_list .orders__entry .state { color: #B5B5B5; }
+#orders_list .orders__entry .state-done { color: #39A412; }
+#orders_list .orders__entry .state-in-progress { color: white; }
+
+#orders_list .orders__entry .inside {
+    color: #B5B5B5;
+}
+
+#orders_list .orders__entry .inside a {
+    color: #B5B5B5;
+    text-decoration: underline;
+}
+
+#orders_list .orders__entry .inside-entry::after {
+    content: ",";
+}
+
+#orders_list .orders__entry .inside-entry:last-child::after {
+    content: none;
+}
+
+/* || Media queries */
+
+@media (max-width: 600px) {
+    #account_data .acc-data__wrapper {
+        grid-template:  1fr max-content / min-content;
+    }
+
+    #account_data .acc-data__avatar {
+        margin: 0 0 10px;
+    }
+
+    #orders_list .orders__entry .inside-entry {
+        display: block;
+    }
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="63.999996"
+   height="63.999996"
+   viewBox="0 0 16.933332 16.933332"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient3">
+      <stop
+         style="stop-color:#8600a2;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#d22eff;stop-opacity:1;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#c3a71d;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#9c6b00;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="0"
+       y1="9.5249996"
+       x2="19.049999"
+       y2="9.5249996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient3"
+       id="linearGradient4"
+       x1="12.106053"
+       y1="4.290802"
+       x2="15.064349"
+       y2="-0.6326288"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.8613639,0,0,1.861364,-14.843955,4.2520688)" />
+  </defs>
+  <g
+     id="layer1">
+    <path
+       style="fill:url(#linearGradient2);stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-miterlimit:5"
+       d="m 0,16.933333 v -6.35 l 4.233333,-8.4666664 4.2333333,8.4666664 2.1166667,-4.2333333 2.116666,4.2333333 3.175,-7.408333 3.175,7.408333 v 6.35 z"
+       id="path1" />
+    <text
+       xml:space="preserve"
+       style="font-size:17.7295px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#linearGradient4);stroke:none;stroke-width:1.96993;stroke-linecap:round;stroke-miterlimit:5"
+       x="4.1018133"
+       y="14.101784"
+       id="text2"
+       transform="scale(0.92390438,1.0823631)"><tspan
+         id="tspan2"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.7295px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';baseline-shift:baseline;fill:url(#linearGradient4);stroke-width:1.96993"
+         x="4.1018133"
+         y="14.101784">C</tspan></text>
+  </g>
+</svg>

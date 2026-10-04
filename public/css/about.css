@@ -1,0 +1,70 @@
+/* || Increased margin */
+
+section {
+    margin-top: 80px;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+/* || Main company points */
+
+.points__container {
+    justify-content: space-evenly;
+}
+
+.point__box {
+    padding: 20px 70px;
+    text-align: center;
+}
+
+.point__box .value {
+    font-family: 'Ubuntu-sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.point__box .metric {
+    font-size: 24px;
+    color: black;
+}
+
+/* || Company description */
+
+.description__container {
+    display: block;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 20px 20px;
+    font-size: 24px;
+    white-space: pre-wrap;
+}
+
+/* || Company history */
+
+.history__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.history__snippet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.history__snippet img {
+    width: 480px;
+    height: 480px;
+}
+
+.history__snippet p {
+    flex-grow: 1;
+    padding: 40px 10px;
+    font-size: 24px;
+}

@@ -1,0 +1,45 @@
+.category_list {
+    height: 1153px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.marketing_grid .search__entry {
+    margin-bottom: 10px;
+}
+
+.marketing_grid h2 {
+    font-size: 2rem;
+}
+
+.marketing_grid input[type="text"], .marketing_grid input[type="number"]{
+    height: 1.5lh;
+    border: none;
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 1.6rem;
+    color: black;
+    box-shadow: 1px 1px 5px white;
+}
+
+.marketing_grid .main-prompt {
+    width: 100%;
+}
+
+.marketing_grid .form-button {
+    display: inline;
+    padding: 5px 1rem;
+    font-size: 1.6rem;
+}
+
+.marketing_grid .reset {
+    background: rgb(172, 0, 0);
+}
+
+.marketing_grid .nothing-found {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+}

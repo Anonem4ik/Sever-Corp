@@ -1,0 +1,4 @@
+1) Semantic element/section id
+2) Name of element
+    2.1) If it have parent container: "parent-container__element-name"
+3) Inner parts (for elements in multiply quanities or for forms)
